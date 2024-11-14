@@ -1,13 +1,7 @@
-import { useState } from 'react';
-
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function App() {
   return (
-    <div className='h-screen bg-slate-900 text-white/90 flex flex-col justify-center items-center'>
-      <p className='text-4xl'>Hello World</p>
-    </div>
+    <main className='h-screen flex justify-center items-center'>
+      <h1 className='text-3xl font-semibold tracking-wider'>Hello React.</h1>
+    </main>
   );
 }
-
-export default App;
